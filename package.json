@@ -1,7 +1,7 @@
 {
   "name": "swap-panes",
   "main": "./lib/swap-panes",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Move panes right, left, up, down, next or previous",
   "activationEvents": [
     "swap-panes:swap-right",
@@ -16,6 +16,5 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
