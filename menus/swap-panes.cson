@@ -1,0 +1,17 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Swap Panes'
+      'submenu': [
+        { 'label': 'Swap pane right', 'command': 'swap-panes:swap-right' }
+        { 'label': 'Swap pane left', 'command': 'swap-panes:swap-left' }
+        { 'label': 'Swap pane up', 'command': 'swap-panes:swap-up' }
+        { 'label': 'Swap pane down', 'command': 'swap-panes:swap-down' }
+        { 'label': 'Swap pane next', 'command': 'swap-panes:swap-next' }
+        { 'label': 'Swap pane previous', 'command': 'swap-panes:swap-previous' }
+      ]
+    ]
+  }
+]
