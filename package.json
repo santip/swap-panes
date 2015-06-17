@@ -3,18 +3,10 @@
   "main": "./lib/swap-panes",
   "version": "0.1.0",
   "description": "Move panes right, left, up, down, next or previous",
-  "activationEvents": [
-    "swap-panes:swap-right",
-    "swap-panes:swap-left",
-    "swap-panes:swap-up",
-    "swap-panes:swap-down",
-    "swap-panes:swap-next",
-    "swap-panes:swap-previous"
-  ],
   "repository": "https://github.com/santip/swap-panes",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {}
 }

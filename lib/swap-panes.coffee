@@ -1,12 +1,11 @@
 module.exports =
-
   activate: (state) ->
-    atom.workspaceView.command "swap-panes:swap-right", => @swapRight()
-    atom.workspaceView.command "swap-panes:swap-left", => @swapLeft()
-    atom.workspaceView.command "swap-panes:swap-down", => @swapDown()
-    atom.workspaceView.command "swap-panes:swap-up", => @swapUp()
-    atom.workspaceView.command "swap-panes:swap-next", => @swapNext()
-    atom.workspaceView.command "swap-panes:swap-previous", => @swapPrevious()
+    atom.commands.add 'atom-workspace', 'swap-panes:swap-right', => @swapRight()
+    atom.commands.add 'atom-workspace', 'swap-panes:swap-left', => @swapLeft()
+    atom.commands.add 'atom-workspace', 'swap-panes:swap-down', => @swapDown()
+    atom.commands.add 'atom-workspace', 'swap-panes:swap-up', => @swapUp()
+    atom.commands.add 'atom-workspace', 'swap-panes:swap-next', => @swapNext()
+    atom.commands.add 'atom-workspace', 'swap-panes:swap-previous', => @swapPrevious()
 
   swapRight: -> @swap 'horizontal', +1
   swapLeft: -> @swap 'horizontal', -1
