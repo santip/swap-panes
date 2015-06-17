@@ -1,7 +1,7 @@
 {
   "name": "swap-panes",
   "main": "./lib/swap-panes",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Move panes right, left, up, down, next or previous",
   "repository": "https://github.com/santip/swap-panes",
   "license": "MIT",
