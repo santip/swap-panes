@@ -7,7 +7,7 @@
 
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
-'.workspace':
+'atom-workspace':
   'alt-ctrl-shift-right': 'swap-panes:swap-right'
   'alt-ctrl-shift-left': 'swap-panes:swap-left'
   'alt-ctrl-shift-down': 'swap-panes:swap-down'
